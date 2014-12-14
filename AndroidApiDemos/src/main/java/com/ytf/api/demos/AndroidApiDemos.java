@@ -67,7 +67,8 @@ public class AndroidApiDemos extends ListActivity {
             String label = labelSeq != null ? labelSeq.toString() : info.activityInfo.name;
 
             if (prefixWithSlash.length() == 0 || label.startsWith(prefixWithSlash)){
-
+                String[] labelPath = label.split("/");
+                
             }
         }
 
