@@ -4,4 +4,21 @@
     <string name="app_name">AndroidApiDemos</string>
     <string name="hello_world">Hello world!</string>
 
+    <!-- ============================ -->
+    <!--  Accessibility examples strings  -->
+    <!-- ============================ -->
+
+    <string name="accessibility_service">Accessibility/Accessibility Service</string>
+    <string name="accessibility_service_label">ClockBack</string>
+    <string name="accessibility_service_instructions">
+        1. Enable TalkBack (Settings -> Accessibility -> TalkBack).
+        \n\n2. Enable Explore-by-Touch (Settings -> Accessibility -> Explore by Touch).
+        \n\n3. Touch explore the Clock application and the home screen.
+        \n\n4. Go to the Clock application and change the time of an alarm.
+        \n\n5. Enable ClockBack (Settings -> Accessibility -> ClockBack).
+        \n\n6. Go to the Clock application and change an alarm.
+        \n\n7. Set the ringer to vibration mode and change an alarm.
+        \n\n8. Set the ringer to muted mode and change an alarm.
+    </string>
+
 </resources>

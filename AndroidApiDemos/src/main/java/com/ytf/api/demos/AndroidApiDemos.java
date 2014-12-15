@@ -128,12 +128,12 @@ public class AndroidApiDemos extends ListActivity {
 
     /**
      * @param pkg
-     * @param conpentName
+     * @param componentName
      * @return
      */
-    protected Intent activityIntent(String pkg, String conpentName) {
+    protected Intent activityIntent(String pkg, String componentName) {
         Intent result = new Intent();
-        result.setClassName(pkg, conpentName);
+        result.setClassName(pkg, componentName);
         return result;
     }
 
